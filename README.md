@@ -18,7 +18,7 @@ I carried out this project to assess the integrity of financial transactions pro
 
 **Result:** The hour with the highest proportion of fraud (6.6%) was 2am. The day with the highest proportion of fraud was Tuesday (5.8%).
 
-#### 3. Test for fraudulent hours 
+#### 3. Test for hours with higher fraud proportions above the entire day
 - I queried the database to return the hours where the proportion of fraud per hour is greater than the proportion of fraud per day. [Link here](https://github.com/johnuzoma/audit-analytics/blob/main/sql/4.%20fraud_hour_gt_day.png).
 - Then I wrapped the result in a view called **VIEW_pct_fraudulent_TX_hour_gt_day** and queried this view to return the number of occurrences per hour. [Link here](https://github.com/johnuzoma/audit-analytics/blob/main/sql/5.%20occurrences_fraud_hour_gt_day.png).
 
