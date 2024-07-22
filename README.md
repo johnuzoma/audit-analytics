@@ -1,6 +1,10 @@
-### Audit report
-<img width="587" alt="visualization" src="https://github.com/user-attachments/assets/92389f48-939f-429e-a0f3-6f90f5b4b35b">
+### Executive summary
+I carried out this project to assess the integrity of financial transactions processed through a fictional company's platform.
 
+### Data visualization
+<img width="589" alt="visualization" src="https://github.com/user-attachments/assets/b7aa3dd2-af01-4322-8c17-4805f677b938">
+
+### Tests
 #### 1. Test for outliers in transaction amount
 - I tested for outliers using the inter-quartile range approach. [Link here](https://github.com/johnuzoma/audit-analytics/blob/main/sql/1.%20outlier%20detection%20using%20IQR.png).
 - I tested with a different approach by outputting amounts that were more than 3 standard deviations from the mean. [Link here](https://github.com/johnuzoma/audit-analytics/blob/main/sql/2.%20outlier%20detection%20using%20mean_std.png).
